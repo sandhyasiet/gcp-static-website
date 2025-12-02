@@ -1,6 +1,7 @@
 variable "project_id" {
   description = "The GCP project id."
   type        = string
+  default     = "grand-citadel-475013-c0"
 }
 
 variable "environment" {
